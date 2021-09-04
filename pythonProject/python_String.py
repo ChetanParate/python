@@ -1,0 +1,17 @@
+
+str = "chetan is a good boy"
+print(len(str))
+print(str[0:6])
+print(str[:6])
+print(str[:])
+print(str[0:])
+print(str[1])
+print(str[0:6:2])
+print(str[::])
+print(str[-4:-2])
+print(str[::-1])
+print(str.isalnum())
+print(str.count("o"))
+print(str.find("is"))
+print(str.capitalize())
+print(str.replace("chetan","mady"))
