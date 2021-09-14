@@ -1,7 +1,15 @@
 class Employee:
     no_of_leaves = 9
-    pass
 
+   # def __init__(self,name,salary,role):
+   #      self.name = name
+   #      self.salary = salary
+   #      self.role = role
+
+    def printdetails(self):
+        return f"Name is {self.name}. Salary is {self.salary}, and Role is {self.role}"
+
+# motu = Employee("Motya",6767,"creator")
 chetan = Employee()
 teju = Employee()
 
@@ -18,4 +26,6 @@ teju.no_of_leaves = 10
 print(teju.no_of_leaves)
 print(chetan.__dict__)
 print(teju.__dict__)
+print(Employee.__dict__)
+print(chetan.printdetails())
 
