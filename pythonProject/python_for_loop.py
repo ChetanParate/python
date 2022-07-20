@@ -12,3 +12,11 @@ for item1, item2 in list3:
 dic = dict(list3)
 for item1, item2 in dic.items():
     print(item1,item2)
+
+for letter in "Chetan":
+    print(letter)
+
+for char in "Chetan is good boy":
+    print(char)
+for name in "chetan","teju", "roshan", "vivek":
+    print(name)

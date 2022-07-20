@@ -22,3 +22,4 @@ b = int(input("enter b\n"))
 if a>b: print("A B se bada hai bhai")
 
 print("B is greater") if a<b else print("A is greater")
+

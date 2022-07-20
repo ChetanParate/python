@@ -30,3 +30,9 @@ b= 10
 print(a,b)
 a,b =b,a
 print(a,b)
+
+#max()
+#min()
+#len()
+#sum()
+#[startindex:endindex:incriment/stepsize]
