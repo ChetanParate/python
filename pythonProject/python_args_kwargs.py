@@ -11,7 +11,10 @@ def fun_argsone(ms, *list, **kwargs): #list of arguments args (*args) (**args)
     print("kwargs values ********")
     for key,value in kwargs.items():
         print(f"{key} is a {value}")
+    print(kwargs)
 
+def display(*args):
+    print(args)
 
 
 list = ["chetan", "Tejaswee", "SomeOne", "Shiva"]
@@ -24,3 +27,7 @@ print("*****************")
 fun_argsone(ms,*list)
 print("*****************")
 fun_argsone(ms, *list, **keyvalue)
+print("*****************")
+display(list)
+print("*****************")
+display(*list)

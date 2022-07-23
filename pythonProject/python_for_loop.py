@@ -18,5 +18,11 @@ for letter in "Chetan":
 
 for char in "Chetan is good boy":
     print(char)
+
 for name in "chetan","teju", "roshan", "vivek":
     print(name)
+for str , num in list3:
+    print("String is %s in number is %s" %(str,num))
+
+for i, (str , num) in enumerate(list3):
+    print("At index %s string is %s in number is %s" %(i, str,num))
