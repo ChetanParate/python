@@ -2,9 +2,9 @@ class Employee:
     no_of_leaves = 9
 
    # def __init__(self,name,salary,role):
-   #      self.name = name
-   #      self.salary = salary
-   #      self.role = role
+    #     self.name = name
+     #    self.salary = salary
+      #   self.role = role
 
     def printdetails(self):
         return f"Name is {self.name}. Salary is {self.salary}, and Role is {self.role}"
