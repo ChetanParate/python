@@ -1,7 +1,7 @@
 l = 10 #Global variable
 x = 89
 def fuctionOne (n):
-    # l = 5 #Local Variable
+    #l = 5 #Local Variable
     m = 8
     global l
     l =l+45
